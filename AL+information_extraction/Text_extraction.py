@@ -15,8 +15,8 @@ from nltk.tokenize import word_tokenize
 from spacy import displacy
 from country_list import *
 
-!pip install spacy && python -m spacy download en
-!python spacy_ner_custom_entities.py 
+get_ipython().system('pip install spacy && python -m spacy download en')
+get_ipython().system('python spacy_ner_custom_entities.py ') 
 from nltk.corpus import stopwords
 lemmatizering = WordNetLemmatizer()
 
